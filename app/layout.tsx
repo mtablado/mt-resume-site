@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import NavHeader from "@/components/NavHeader";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,8 +14,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Miguel Tablado — Resume",
-  description: "Professional resume of Miguel Tablado",
+  title: {
+    template: "%s — Miguel Tablado",
+    default: "Miguel Tablado",
+  },
+  description: "Personal website of Miguel Tablado, CTO for Applications, Data & AI",
 };
 
 export default function RootLayout({
@@ -27,7 +31,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <NavHeader />
+        {children}
+      </body>
     </html>
   );
 }
