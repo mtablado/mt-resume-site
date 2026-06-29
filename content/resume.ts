@@ -159,6 +159,11 @@ export const awards: {
   year: string;
 }[] = [
   {
+    title: "Google Cloud Partner All-star — AI Innovation",
+    issuer: "Google Cloud",
+    year: "2025",
+  },
+  {
     title: "Kyndryl Top Voice — Data, AI & Cloud",
     issuer: "Kyndryl Spain & Portugal",
     year: "2022–present",
