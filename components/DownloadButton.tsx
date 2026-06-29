@@ -17,6 +17,12 @@ export default function DownloadButton() {
         return;
       }
 
+      // Scroll to top so html2canvas calculates element positions correctly,
+      // then wait two animation frames for the browser to repaint before capturing.
+      const savedScrollY = window.scrollY;
+      window.scrollTo(0, 0);
+
+      const capture = () => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       (window as any)
         .html2pdf()
@@ -80,14 +86,22 @@ export default function DownloadButton() {
         .from(element)
         .output("bloburl")
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        .then((url: string) => window.open(url, "_blank"))
+        .then((url: string) => {
+          window.scrollTo(0, savedScrollY);
+          window.open(url, "_blank");
+        })
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         .catch((err: any) => {
+          window.scrollTo(0, savedScrollY);
           console.error("PDF generation failed:", err);
           alert("PDF generation failed — opening print dialog as fallback.");
           window.print();
         })
         .finally(() => setLoading(false));
+      };
+
+      // Two rAF calls ensure the browser repaints after scrollTo before capture
+      requestAnimationFrame(() => requestAnimationFrame(capture));
     };
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
