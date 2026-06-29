@@ -145,9 +145,12 @@ export default function CVPage() {
         {/* Resume document — this element is captured by html2pdf */}
         <div
           id="resume"
-          className="mx-auto bg-white shadow-2xl print:shadow-none"
+          className="mx-auto shadow-2xl print:shadow-none overflow-hidden"
           style={{ width: 794 }}
         >
+          {/* TODO: white ~2px strip appears on the left edge of the header (browser + PDF).
+               Likely a subpixel rendering artifact. overflow-hidden and removing bg-white
+               from #resume did not resolve it. Needs further investigation. */}
           {/* Header */}
           <header
             className="px-10 py-7 flex gap-7 items-center"
@@ -190,7 +193,7 @@ export default function CVPage() {
           </div>
 
           {/* Body */}
-          <div className="flex" style={{ minHeight: 1013 }}>
+          <div className="flex bg-white" style={{ minHeight: 1013 }}>
             <Sidebar />
             <MainContent />
           </div>

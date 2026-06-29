@@ -30,12 +30,48 @@ export default function DownloadButton() {
             allowTaint: true,
             logging: false,
             imageTimeout: 0,
-            // Fix object-fit images by resolving them before capture
-            onclone: (doc: Document) => {
-              doc.querySelectorAll<HTMLImageElement>("img").forEach((img) => {
-                img.style.objectFit = "cover";
-                img.style.objectPosition = "center";
-              });
+            onclone: (_clonedDoc: Document) => {
+              // html2canvas ignores object-fit, so we pre-draw each img with a
+              // correct cover-crop onto a canvas and swap the src to a data URL.
+              _clonedDoc
+                .querySelectorAll<HTMLImageElement>("img")
+                .forEach((clonedImg) => {
+                  // Find the already-loaded original so naturalWidth is available
+                  const orig = document.querySelector<HTMLImageElement>(
+                    `img[alt="${clonedImg.alt}"]`
+                  );
+                  const src = orig ?? clonedImg;
+                  const nw = src.naturalWidth;
+                  const nh = src.naturalHeight;
+                  if (!nw || !nh) return;
+
+                  const dw = clonedImg.offsetWidth || nw;
+                  const dh = clonedImg.offsetHeight || nh;
+
+                  const canvas = document.createElement("canvas");
+                  canvas.width = dw;
+                  canvas.height = dh;
+                  const ctx = canvas.getContext("2d");
+                  if (!ctx) return;
+
+                  // object-fit: cover calculation
+                  const scale = Math.max(dw / nw, dh / nh);
+                  const drawW = nw * scale;
+                  const drawH = nh * scale;
+                  ctx.drawImage(
+                    src,
+                    (dw - drawW) / 2,
+                    (dh - drawH) / 2,
+                    drawW,
+                    drawH
+                  );
+
+                  clonedImg.src = canvas.toDataURL("image/jpeg", 0.98);
+                  clonedImg.style.width = `${dw}px`;
+                  clonedImg.style.height = `${dh}px`;
+                  clonedImg.style.objectFit = "none";
+                  clonedImg.style.maxWidth = "none";
+                });
             },
           },
           jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },

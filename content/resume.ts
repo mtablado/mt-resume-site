@@ -1,5 +1,5 @@
 export const name = "Miguel Tablado León";
-export const title = "Chief Technology Officer · AI, Data & Cloud";
+export const title = "Chief Technology Officer · Applications, Data & AI";
 
 export const contact = {
   email: "migueltablado@gmail.com",
