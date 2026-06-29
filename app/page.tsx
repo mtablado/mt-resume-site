@@ -14,6 +14,7 @@ import {
 // ─── Layout constants ─────────────────────────────────────────────────────────
 
 const NAVY = "#1e3a5f";
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 // ─── Sub-components ───────────────────────────────────────────────────────────
 
@@ -156,7 +157,7 @@ export default function ResumePage() {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/profile.png"
+              src={`${BASE}/profile.png`}
               alt={NAME}
               className="rounded-full object-cover object-center shrink-0"
               style={{
