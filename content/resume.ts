@@ -18,19 +18,19 @@ export const summary =
 export const skills: Record<string, string[]> = {
   "AI & Data": [
     "Data Science", "Agentic AI", "AI Solutions Design",
-    "Data Frameworks & Methodologies",
+    "MLOps", "AgentOps",
+    "Data Frameworks & Platforms", "Data Streaming"
   ],
   "Cloud & Containers": [
-    "Kubernetes", "OpenShift", "Docker",
-    "Hybrid Cloud", "Landing Zones", "Cloud Native",
+    "Hyperscalers", "Hybrid Cloud", "Google MVP Partner", 
+    "Landing Zones", "Kubernetes", "OpenShift",
+    "Cloud Native Solutions",
   ],
-  "Architecture & DevOps": [
-    "Microservices", "JEE / Java EE", "CI/CD",
-    "Apache Camel", "DevOps", "Maven",
+  "Applications": [
+    "Solution Design", "Observability", "SDLC", "Agentic Development",
   ],
   "Leadership": [
-    "Engineering Team Management", "P&L",
-    "Pre-sales", "Public Speaking", "Strategy",
+    "Leading by Example", "Innovation", "Public Speaking", "Coach & Mentor", "Strategic Thinking",
   ],
 };
 
