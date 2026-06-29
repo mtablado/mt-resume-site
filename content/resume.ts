@@ -17,7 +17,7 @@ export const summary =
 
 export const skills: Record<string, string[]> = {
   "AI & Data": [
-    "Data Science", "Agentic AI", "AI Solutions Design",
+    "Data Science", "Agentic AI", "LangGraph", "AI Solutions Design",
     "MLOps", "AgentOps",
     "Data Frameworks & Platforms", "Data Streaming"
   ],
