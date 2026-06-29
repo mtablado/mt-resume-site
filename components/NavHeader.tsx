@@ -8,10 +8,12 @@ const NAVY = "#1e3a5f";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/cv", label: "CV" },
+  { href: "/experience", label: "Experience" },
+  { href: "/education", label: "Education" },
   { href: "/awards", label: "Awards & Recognitions" },
 ];
+
+const CV_HREF = "/cv";
 
 export default function NavHeader() {
   const pathname = usePathname();
@@ -46,6 +48,16 @@ export default function NavHeader() {
               {label}
             </Link>
           ))}
+          <Link
+            href={CV_HREF}
+            className={`text-sm font-semibold px-4 py-1.5 rounded-full transition-all ${
+              pathname === CV_HREF
+                ? "bg-white text-gray-900"
+                : "bg-white/20 text-white hover:bg-white hover:text-gray-900"
+            }`}
+          >
+            CV
+          </Link>
         </nav>
 
         {/* Mobile hamburger */}
@@ -99,6 +111,19 @@ export default function NavHeader() {
               {label}
             </Link>
           ))}
+          <div className="px-6 py-3">
+            <Link
+              href={CV_HREF}
+              onClick={() => setMenuOpen(false)}
+              className={`inline-block text-sm font-semibold px-4 py-1.5 rounded-full ${
+                pathname === CV_HREF
+                  ? "bg-white text-gray-900"
+                  : "bg-white/20 text-white"
+              }`}
+            >
+              CV
+            </Link>
+          </div>
         </nav>
       )}
     </header>
