@@ -11,7 +11,6 @@ const links = [
   { href: "/about", label: "About" },
   { href: "/cv", label: "CV" },
   { href: "/awards", label: "Awards & Recognitions" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export default function NavHeader() {

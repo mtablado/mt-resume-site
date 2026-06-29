@@ -1,8 +1,125 @@
 import type { Metadata } from "next";
-import ComingSoon from "@/components/ComingSoon";
 
 export const metadata: Metadata = { title: "Awards & Recognitions" };
 
+const NAVY = "#1e3a5f";
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export default function AwardsPage() {
-  return <ComingSoon title="Awards & Recognitions" />;
+  return (
+    <main className="flex-1 flex flex-col">
+
+      {/* ── Page hero ─────────────────────────────────────────────────────── */}
+      <section
+        className="py-24 px-6 text-center"
+        style={{ backgroundColor: NAVY }}
+      >
+        <p className="text-xs uppercase tracking-[0.2em] mb-4" style={{ color: "#93c5fd" }}>
+          Recognition
+        </p>
+        <h1 className="text-5xl font-bold text-white tracking-tight">
+          Awards &amp; Recognitions
+        </h1>
+        <p className="mt-4 text-lg max-w-xl mx-auto" style={{ color: "#bfdbfe" }}>
+          A selection of honours received for contributions to AI, cloud, and
+          technology leadership.
+        </p>
+      </section>
+
+      {/* ── Google Cloud Partner All-star ─────────────────────────────────── */}
+      <section className="bg-white py-24 px-6">
+        <div className="max-w-5xl mx-auto text-center">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] mb-3" style={{ color: "#4285F4" }}>
+            Google Cloud · 2025
+          </p>
+          <h2 className="text-4xl font-bold text-gray-900 leading-tight mb-3">
+            Google Cloud Partner All-star
+          </h2>
+          <h3 className="text-xl font-semibold mb-10" style={{ color: "#4285F4" }}>
+            AI Innovation
+          </h3>
+
+          {/* Badge graphic */}
+          <div className="flex items-center justify-center mb-10">
+            <div
+              className="w-64 h-64 rounded-full flex flex-col items-center justify-center text-center shadow-xl"
+              style={{ backgroundColor: "#f0f4ff", border: "3px solid #4285F4" }}
+            >
+              <div className="flex gap-2 mb-4">
+                {["#EA4335", "#FBBC05", "#34A853", "#4285F4"].map((c) => (
+                  <span
+                    key={c}
+                    className="w-3 h-3 rounded-full"
+                    style={{ backgroundColor: c }}
+                  />
+                ))}
+              </div>
+              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">
+                Partner All-star
+              </p>
+              <p className="text-2xl font-extrabold" style={{ color: "#4285F4" }}>
+                AI Innovation
+              </p>
+              <p className="text-xs text-gray-400 mt-2">Google Cloud · 2025</p>
+            </div>
+          </div>
+
+          <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto">
+            Recognised by Google Cloud as a Partner All-star for AI Innovation —
+            awarded to a select group of individuals whose work has driven
+            exceptional outcomes in artificial intelligence solutions and
+            partner ecosystem impact.
+          </p>
+        </div>
+      </section>
+
+      {/* ── The Heart of Kyndryl ──────────────────────────────────────────── */}
+      <section className="py-24 px-6" style={{ backgroundColor: "#0d2137" }}>
+        <div className="max-w-5xl mx-auto">
+          {/* Section label */}
+          <p className="text-xs font-bold uppercase tracking-[0.2em] mb-3 text-center" style={{ color: "#93c5fd" }}>
+            Kyndryl · 2024
+          </p>
+          <h2 className="text-4xl font-bold text-white text-center leading-tight mb-3">
+            The Heart of Kyndryl
+          </h2>
+          <h3 className="text-xl font-semibold text-center mb-16" style={{ color: "#93c5fd" }}>
+            Inaugural Honoree
+          </h3>
+
+          {/* Award banner image */}
+          <div className="rounded-2xl overflow-hidden mb-10 shadow-2xl">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${BASE}/awards/heart_of_kyndryl_24.png`}
+              alt="The Heart of Kyndryl — 2024 Honorees"
+              className="w-full object-cover"
+            />
+          </div>
+
+          {/* Description */}
+          <p className="text-lg text-center max-w-3xl mx-auto mb-16" style={{ color: "#bfdbfe" }}>
+            The Heart of Kyndryl was established to recognise and celebrate outstanding
+            Kyndryls from across the global business who are at the heart of its
+            progress — exemplifying and advancing The Kyndryl Way and enabling shared
+            success for the company and customers. Honoured in its inaugural year.
+          </p>
+
+          {/* Spanish honorees image */}
+          <h3 className="text-2xl font-semibold text-white text-center mb-6">
+            List of Honorees
+          </h3>
+          <div className="rounded-2xl overflow-hidden shadow-2xl">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${BASE}/awards/heart_of_kyndryl_24_spanish_honorees.png`}
+              alt="Heart of Kyndryl 2024 — Spain & Portugal Honorees"
+              className="w-full object-cover"
+            />
+          </div>
+        </div>
+      </section>
+
+    </main>
+  );
 }
