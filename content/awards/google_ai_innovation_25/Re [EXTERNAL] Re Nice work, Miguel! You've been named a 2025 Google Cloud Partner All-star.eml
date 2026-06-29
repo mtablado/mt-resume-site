@@ -1,0 +1,495 @@
+Received: from BE1P281MB2788.DEUP281.PROD.OUTLOOK.COM (2603:10a6:b10:3c::10)
+ by BE1P281MB2451.DEUP281.PROD.OUTLOOK.COM with HTTPS; Mon, 29 Jun 2026
+ 13:55:27 +0000
+Received: from BE1P281MB2451.DEUP281.PROD.OUTLOOK.COM (2603:10a6:b10:3f::10)
+ by BE1P281MB2788.DEUP281.PROD.OUTLOOK.COM (2603:10a6:b10:3c::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.159.19; Mon, 29 Jun
+ 2026 13:55:15 +0000
+Received: from BE1P281MB2451.DEUP281.PROD.OUTLOOK.COM
+ ([fe80::e681:8bf3:425a:18b9]) by BE1P281MB2451.DEUP281.PROD.OUTLOOK.COM
+ ([fe80::e681:8bf3:425a:18b9%6]) with mapi id 15.21.0159.018; Mon, 29 Jun 2026
+ 13:55:15 +0000
+From: MIGUEL TABLADO <Miguel.Tablado.Leon@kyndryl.com>
+To: MIGUEL TABLADO <Miguel.Tablado.Leon@kyndryl.com>
+Subject: Re: [EXTERNAL] Re: Nice work, Miguel! You've been named a 2025 Google
+ Cloud Partner All-star
+Thread-Topic: [EXTERNAL] Re: Nice work, Miguel! You've been named a 2025
+ Google Cloud Partner All-star
+Thread-Index: AQHcWFtWnL35PxT9JUCWKBLJ3/Q88rZW7J08
+Date: Mon, 29 Jun 2026 13:55:15 +0000
+Message-ID:
+	<BE1P281MB2451FC3AA64EA584A5604855ACE82@BE1P281MB2451.DEUP281.PROD.OUTLOOK.COM>
+References:
+	<CAAtnuKjyuuMTSMW12ix=1vKvxMwmLPLCh97H7iS7cZNwkzMJxA@mail.gmail.com>
+ <CADOexnwZzyPB6X9=XU8ED7_Poqurd7nsakWqEZU-aCHs2AmgzQ@mail.gmail.com>
+In-Reply-To:
+	<CADOexnwZzyPB6X9=XU8ED7_Poqurd7nsakWqEZU-aCHs2AmgzQ@mail.gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BE1P281MB2451.DEUP281.PROD.OUTLOOK.COM
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	725d70d8-7292-4e69-bb07-08ded5e60c18
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-exchange-transport-crosstenantheadersstamped: BE1P281MB2788
+x-ms-office365-filtering-correlation-id: 725d70d8-7292-4e69-bb07-08ded5e60c18
+x-ms-exchange-crosstenant-id: f260df36-bc43-424c-8f44-c85226657b01
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BE1P281MB2451.DEUP281.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(69100299015)(7049299003)(366016)(3109299003)(23010399003)(4022899009)(18002099003)(22082099003)(11063799006)(4143699003)(56012099006)(8096899003)(41050700001);DIR:INT;
+x-microsoft-antispam:
+	BCL:0;ARA:13230040|69100299015|7049299003|366016|3109299003|23010399003|4022899009|18002099003|22082099003|11063799006|4143699003|56012099006|8096899003|41050700001;
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Jun 2026 13:55:15.5231 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=kyndryl.com;
+x-ms-traffictypediagnostic:
+	BE1P281MB2451:EE_|BE1P281MB2788:EE_|BE1P281MB2451:EE_
+x-ms-exchange-crosstenant-network-message-id:
+	725d70d8-7292-4e69-bb07-08ded5e60c18
+x-ms-exchange-transport-endtoendlatency: 00:00:11.5635612
+x-ms-exchange-processed-by-bccfoldering: 15.21.0159.018
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	Ib90pUkG3eGFiqwu2gJzL0tLVGSWJP1XgEbEnnZoZpnbwqeLg4zO1UmAmivLJbrc8J8p/uIqN1OjH+f/6vL/JeNrBPe9RQizpGWjfMFqJ3k=
+x-ms-exchange-crosstenant-authsource: BE1P281MB2451.DEUP281.PROD.OUTLOOK.COM
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930201)(20251009189)(140003);
+X-Microsoft-Antispam-Message-Info:
+	8zu8to1XuIwQhG1YLqxfoGDEJYgzLB3kEMtxmJ6mwtxVmr8ARjk/OJVnJmjoaSnBMWfK87RTlN2C+rQx1UQEcCa1FKJOrEb/eQLQv160UxLmyTj/kV6tow9/eXn71hzQhE08xuWZSbQp6PUXTx1eK+i++Vt/1KWXAelebBUsLU13ISbwitWksoqrkBM0p7BCmkS+4Z9yQNKA+r+GTMrt6zt1K5vQaUxCyAwS5e7jreD7zqciefi/DSQkaJxOD9xhjnBCKNjvppg59hqbY20Hsz+lYI+cjZv1Rzj4YsMB53wba8TLcQBEPOyLeavAMJcdqswU72B6IeAOIj5QdKjxgzfa0hG2oxy/fu/nKlMTyd/67QPciMji2GeR8P5Aq6gF/ds5FmGdjlEDbbPDgDGyD80Ypte22COTWm0/INcaNDVFMV6lgrTyvB4vHkiWGXlRgVWHZr2OW1UDB0dJb8+B8h3awMLzBWdntMkCHmsE1Ddu+daq+RsJSpiWsFNAHsM2rta0UjvdvIsksPlS6GN16JmgAdjX1P/skEAbtqqyhkbDK1mwWeZOAlMsUyXNdoTL+UzoJEJXsvTaunXH9pN/R5adgVjOgbje3Z9/JufjXR+Uw6szdk68hsQF6Ex50jABAv8kT/45KZXkKfUaj7NKPZz+/8dHH9nWb220GW6fXXm3HwcZPtdg0IDEYL2LMnhfAKIchY6zQpdSBCVdHKvKZrZ7HnLNzYKzSznTNx5wLG1iCD5N1CAgRCHWYa58PQBWwiBIvcr89Yxrn5+YpLs5dnGq+1jVQ7pJvIzp83vTRu2MHanlyCoM7wWVAtANqfCl
+Content-Type: multipart/alternative;
+	boundary="_000_BE1P281MB2451FC3AA64EA584A5604855ACE82BE1P281MB2451DEUP_"
+MIME-Version: 1.0
+
+--_000_BE1P281MB2451FC3AA64EA584A5604855ACE82BE1P281MB2451DEUP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, 17 Nov 2025, 18:48 Kevin Ichhpurani, <partner-allstars@google.com<m=
+ailto:partner-allstars@google.com>> wrote
+[https://www.gstatic.com/gumdrop/files/google-cloud-partners-google-cloud-l=
+ogo-transparent-w238px-h43px-2x.png]
+Way to go, All-star.
+Miguel
+Tablado
+2025 Partner All-star
+in AI Innovation
+[https://www.gstatic.com/gumdrop/files/ads-supercloud-desk-transparent-w552=
+px-h558px-2x.png]
+[https://www.gstatic.com/gumdrop/files/google-cloud-partners-congrats-with-=
+stars-desk-transparent-w544px-h196px-2x.png]
+Miguel, it is my pleasure to officially recognize you as a 2025 Google Clou=
+d Partner All-star<https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A__g=
+oo.gle_4hZHsg7&d=3DDwMFaQ&c=3DcCoa5WWAB7EEETJScYfkXg&r=3DszVgcPNgswUVw4NaRS=
+chdYJn07qSDKZrxrcUgD5-ces&m=3DhaUbbYSMljcoqstBB5XEKb2Gm_uMJBGyWLbp7AR9WfgxP=
+sK-oQZqmB-tkrHFRpU1&s=3DKA2P31iDj_mcPFYdRuPt2Hb-kcZsfqiTheVLfKeUoSA&e=3D>. =
+Your commitment to excellence has set a standard for partnership that we tr=
+uly appreciate, and your contributions have been invaluable to our success =
+this year.
+On behalf of the entire Google Cloud team, thank you. Below, you'll find re=
+sources<https://urldefense.proofpoint.com/v2/url?u=3Dhttp-3A__services.goog=
+le.com_fh_files_misc_ai-5Finnovation-5F2025-5Ftoolkit.pdf&d=3DDwMFaQ&c=3DcC=
+oa5WWAB7EEETJScYfkXg&r=3DszVgcPNgswUVw4NaRSchdYJn07qSDKZrxrcUgD5-ces&m=3Dha=
+UbbYSMljcoqstBB5XEKb2Gm_uMJBGyWLbp7AR9WfgxPsK-oQZqmB-tkrHFRpU1&s=3DmQidK85d=
+PjLb77AZGidWoqxr9cdDuqSabeiUuAH7iKE&e=3D> to help you share this honor. We =
+look forward to celebrating your continued success.
+Sincerely,
+Kevin Ichhpurani
+President, Global Partner Ecosystem & Channels
+[https://www.gstatic.com/gumdrop/files/google-cloud-partners-quotation-left=
+-desk-transparent-w83px-h64px-2x.png]
+On behalf of Google Cloud, THANK YOU for your dedication and strategic lead=
+ership in our collaboration. Your work has been instrumental in laying the =
+foundation for a successuful alliance in Spain. Thanks to your support, we =
+have achieved concrete, high-value successes, like Bankinter and IB Salut. =
+Your strategic vision, technical acumen, and collaborative spirit helped po=
+sition Kyndryl ES as a key reference point for evolving from a traditional =
+infra player into a strategic Data & AI partner for Google Cloud. To many m=
+ore collaborations!
+[https://www.gstatic.com/gumdrop/files/google-cloud-partners-quotation-righ=
+t-desk-transparent-w84px-h63px-2x.png]
+Your Google Cloud Team
+[https://www.gstatic.com/gumdrop/files/google-cloud-partners-grey-logo-tran=
+sparent-w308px-h54px-2x.png]
+=A9 2025 Google LLC
+1600 Amphitheatre Parkway, Mountain View, CA 94043
+This email was sent to Miguel.Tablado.Leon@kyndryl.com<mailto:Miguel.Tablad=
+o.Leon@kyndryl.com>. You have received this email because you are a part of=
+ the Google Cloud Partner All-stars Program. If you would no longer like to=
+ receive All-star emails, unsubscribe here<https://urldefense.proofpoint.co=
+m/v2/url?u=3Dhttps-3A__docs.google.com_forms_d_e_1FAIpQLSfZLVxlBAmMHU-5FErq=
+gD7vbsy0tFAWm7MRoJezodzz-2DoR98ImQ_viewform&d=3DDwMFaQ&c=3DcCoa5WWAB7EEETJS=
+cYfkXg&r=3DszVgcPNgswUVw4NaRSchdYJn07qSDKZrxrcUgD5-ces&m=3DhaUbbYSMljcoqstB=
+B5XEKb2Gm_uMJBGyWLbp7AR9WfgxPsK-oQZqmB-tkrHFRpU1&s=3Dh9RCWcqRJSgwd_be4-6Z9O=
+nM6YSkXl2MBRVbBN0ubQE&e=3D>.
+
+
+--_000_BE1P281MB2451FC3AA64EA584A5604855ACE82BE1P281MB2451DEUP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"direction: ltr;">On Mon, 17 Nov 2025, 18:48 Kevin Ichhpurani,=
+ &lt;<a href=3D"mailto:partner-allstars@google.com" id=3D"OWAaaf4d595-6101-=
+55c8-39f0-6392b5b754b3" class=3D"OWAAutoLink">partner-allstars@google.com</=
+a>&gt; wrote</div>
+<blockquote style=3D"margin: 0px 0px 0px 0.8ex; padding-left: 1ex; border-l=
+eft: 1px solid rgb(204, 204, 204);">
+<div id=3D"x_m_-98818384810434978m_-5357303412442167918m_-71680809973062545=
+66m_-9060132242141891927m_1085606105911289924m_1059019926132650467m_3276218=
+64899154072m_-6036474967788056314gmail-wrapper_bg" style=3D"background-colo=
+r: rgb(248, 249, 250); margin: 0px auto;">
+<div id=3D"x_m_-98818384810434978m_-5357303412442167918m_-71680809973062545=
+66m_-9060132242141891927m_1085606105911289924m_1059019926132650467m_3276218=
+64899154072m_-6036474967788056314gmail-main_container" style=3D"margin: 0px=
+ auto; padding-top: 69px; min-width: 720px;">
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"direction: ltr; background-color: rgb(248, 249=
+, 250); margin: 0px auto; width: 720px; min-width: 720px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr;">
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"direction: ltr; background-color: rgb(255, 255=
+, 255); margin: 0px auto; width: 720px; min-width: 100%;" id=3D"table_0">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; text-align: center;">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" style=3D"direction: ltr; text-align: center; margin: 0px auto;">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"direction: ltr; padding-top: 24px; padding-bo=
+ttom: 24px;">
+<a href=3D"#x_m_-98818384810434978_m_-5357303412442167918_m_-71680809973062=
+54566_m_-9060132242141891927_m_1085606105911289924_m_1059019926132650467_m_=
+327621864899154072_m_-6036474967788056314_" id=3D"OWA95284ca9-f082-8317-426=
+5-adaf14f27472" class=3D"OWAAutoLink"><img width=3D"119" style=3D"width: 11=
+9px; max-width: 100%;" src=3D"https://www.gstatic.com/gumdrop/files/google-=
+cloud-partners-google-cloud-logo-transparent-w238px-h43px-2x.png"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"direction: ltr;">
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"direction: ltr; margin: 0px auto; width: 720px=
+;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr;">
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"direction: ltr;">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"direction: ltr; line-height: 72px; padding: 27p=
+x 12px 9px 40px; word-break: normal; color: rgb(60, 64, 67); width: 324px;"=
+>
+<div style=3D"direction: ltr; line-height: 72px; font-family: &quot;Google =
+Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-size: 60px;">
+<span style=3D"letter-spacing: -1.75px; font-weight: 700;">Way to go, All-s=
+tar.</span></div>
+</td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"direction: ltr; line-height: 26px; padding-top:=
+ 6px; padding-left: 40px; word-break: normal; color: rgb(32, 33, 36); width=
+: 324px;">
+<div style=3D"direction: ltr; line-height: 26px; font-family: &quot;Google =
+Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-size: 22px;">
+<span style=3D"font-weight: 700;">Miguel&nbsp;</span></div>
+</td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"direction: ltr; line-height: 26px; padding-bott=
+om: 9px; padding-left: 40px; word-break: normal; color: rgb(32, 33, 36); wi=
+dth: 324px;">
+<div style=3D"direction: ltr; line-height: 26px; font-family: &quot;Google =
+Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-size: 22px;">
+<span style=3D"font-weight: 700;">Tablado</span></div>
+</td>
+</tr>
+<tr>
+<td align=3D"left" style=3D"direction: ltr; line-height: 24px; padding-bott=
+om: 9px; padding-left: 40px; word-break: normal; color: rgb(32, 33, 36); wi=
+dth: 324px;">
+<div style=3D"direction: ltr; line-height: 24px; font-family: &quot;Google =
+Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-size: 16px;">
+<span style=3D"letter-spacing: 0.1px; font-weight: 700;">2025 Partner All-s=
+tar<br>
+in AI Innovation</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"right" style=3D"direction: ltr; line-height: 0;"><span style=
+=3D"font-size: 0px;"><a href=3D"#x_m_-98818384810434978_m_-5357303412442167=
+918_m_-7168080997306254566_m_-9060132242141891927_m_1085606105911289924_m_1=
+059019926132650467_m_327621864899154072_m_-6036474967788056314_" id=3D"OWA1=
+da6f50c-bdc8-33c8-e323-8e88ff315572" class=3D"OWAAutoLink"><img width=3D"27=
+6" style=3D"width: 276px; max-width: 100%; padding-bottom: 16px;" src=3D"ht=
+tps://www.gstatic.com/gumdrop/files/ads-supercloud-desk-transparent-w552px-=
+h558px-2x.png"></a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"direction: ltr; padding: 35px 40px 40px;">
+<table align=3D"center" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"direction: ltr;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; border-width: 1px; border-style: solid; border=
+-color: rgb(66, 133, 244); border-radius: 8px; background-color: rgb(248, 2=
+49, 250);">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" style=3D"direction: ltr; text-align: center; border-top-left-radius: 8px=
+; border-top-right-radius: 8px; background-color: rgb(248, 249, 250); margi=
+n: 0px auto; width: 638px; max-width: 640px;">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"direction: ltr; padding-top: 26px; padding-bo=
+ttom: 8px;">
+<a href=3D"#x_m_-98818384810434978_m_-5357303412442167918_m_-71680809973062=
+54566_m_-9060132242141891927_m_1085606105911289924_m_1059019926132650467_m_=
+327621864899154072_m_-6036474967788056314_" id=3D"OWAb1e7844c-cd38-ec65-e67=
+d-0408b4261786" class=3D"OWAAutoLink"><img width=3D"274" height=3D"99" styl=
+e=3D"width: 274px; height: 99px; max-width: 100%;" src=3D"https://www.gstat=
+ic.com/gumdrop/files/google-cloud-partners-congrats-with-stars-desk-transpa=
+rent-w544px-h196px-2x.png"></a></td>
+</tr>
+<tr>
+<td style=3D"direction: ltr; text-align: left; line-height: 21px; padding-r=
+ight: 32px; padding-bottom: 5px; padding-left: 32px; word-break: normal; co=
+lor: rgb(32, 33, 36);">
+<div style=3D"direction: ltr; text-align: left; line-height: 21px; font-fam=
+ily: &quot;Google Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-si=
+ze: 14px;">
+<span style=3D"letter-spacing: 0.2px;">Miguel, it is my pleasure to officia=
+lly recognize you as a
+</span><span style=3D"letter-spacing: 0.2px; color: rgb(25, 103, 210); font=
+-weight: 700;"><a href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp=
+s-3A__goo.gle_4hZHsg7&amp;d=3DDwMFaQ&amp;c=3DcCoa5WWAB7EEETJScYfkXg&amp;r=
+=3DszVgcPNgswUVw4NaRSchdYJn07qSDKZrxrcUgD5-ces&amp;m=3DhaUbbYSMljcoqstBB5XE=
+Kb2Gm_uMJBGyWLbp7AR9WfgxPsK-oQZqmB-tkrHFRpU1&amp;s=3DKA2P31iDj_mcPFYdRuPt2H=
+b-kcZsfqiTheVLfKeUoSA&amp;e=3D" id=3D"OWAf0785687-4d02-27cb-5a08-c0a775fe3f=
+8b" class=3D"OWAAutoLink" data-auth=3D"NotApplicable" style=3D"color: rgb(2=
+5, 103, 210);">2025
+ Google Cloud Partner All-star</a></span><span style=3D"letter-spacing: 0.2=
+px;">. Your commitment to excellence has set a standard for partnership tha=
+t we truly appreciate, and your contributions have been invaluable to our s=
+uccess this year.</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: ltr; text-align: left; line-height: 21px; padding: =
+12px 32px 16px; word-break: normal; color: rgb(32, 33, 36);">
+<div style=3D"direction: ltr; text-align: left; line-height: 21px; font-fam=
+ily: &quot;Google Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-si=
+ze: 14px;">
+<span style=3D"letter-spacing: 0.2px;">On behalf of the entire Google Cloud=
+ team, thank you. Below, you'll find
+</span><span style=3D"letter-spacing: 0.2px; color: rgb(25, 103, 210); font=
+-weight: 700;"><a href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttp=
+-3A__services.google.com_fh_files_misc_ai-5Finnovation-5F2025-5Ftoolkit.pdf=
+&amp;d=3DDwMFaQ&amp;c=3DcCoa5WWAB7EEETJScYfkXg&amp;r=3DszVgcPNgswUVw4NaRSch=
+dYJn07qSDKZrxrcUgD5-ces&amp;m=3DhaUbbYSMljcoqstBB5XEKb2Gm_uMJBGyWLbp7AR9Wfg=
+xPsK-oQZqmB-tkrHFRpU1&amp;s=3DmQidK85dPjLb77AZGidWoqxr9cdDuqSabeiUuAH7iKE&a=
+mp;e=3D" id=3D"OWA187a4fbd-3feb-35bb-4e6a-610eca04af67" class=3D"OWAAutoLin=
+k" data-auth=3D"NotApplicable" style=3D"color: rgb(25, 103, 210);">resource=
+s</a></span><span style=3D"letter-spacing: 0.2px;">&nbsp;to
+ help you share this honor. We look forward to celebrating your continued s=
+uccess.</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: ltr; text-align: left; line-height: 21px; padding-t=
+op: 8px; padding-right: 32px; padding-left: 32px; word-break: normal; color=
+: rgb(32, 33, 36);">
+<div style=3D"direction: ltr; text-align: left; line-height: 21px; font-fam=
+ily: &quot;Google Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-si=
+ze: 14px;">
+<span style=3D"letter-spacing: 0.2px;">Sincerely,</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: ltr; text-align: left; line-height: 21px; padding-r=
+ight: 32px; padding-left: 32px; word-break: normal; color: rgb(32, 33, 36);=
+">
+<div style=3D"direction: ltr; text-align: left; line-height: 21px; font-fam=
+ily: &quot;Google Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-si=
+ze: 14px;">
+<span style=3D"letter-spacing: 0.2px; font-weight: 700;">Kevin Ichhpurani</=
+span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: ltr; text-align: left; line-height: 21px; padding-r=
+ight: 32px; padding-bottom: 16px; padding-left: 32px; word-break: normal; c=
+olor: rgb(32, 33, 36);">
+<div style=3D"direction: ltr; text-align: left; line-height: 21px; font-fam=
+ily: &quot;Google Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-si=
+ze: 14px;">
+<span style=3D"letter-spacing: 0.2px;">President, Global Partner Ecosystem =
+&amp; Channels</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table align=3D"center" role=3D"presentation" style=3D"direction: ltr; bord=
+er-bottom-left-radius: 8px; border-bottom-right-radius: 8px; background-col=
+or: rgb(255, 255, 255); margin: 0px; width: 638px; max-width: 640px;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; padding-left: 24px; vertical-align: top;"><img=
+ width=3D"41" style=3D"width: 41px; max-width: 100%;" src=3D"https://www.gs=
+tatic.com/gumdrop/files/google-cloud-partners-quotation-left-desk-transpare=
+nt-w83px-h64px-2x.png"></td>
+<td style=3D"direction: ltr; line-height: 21px; padding-top: 12px; padding-=
+bottom: 6px; padding-left: 6px; color: rgb(60, 64, 67); width: 478px;">
+<div style=3D"direction: ltr; line-height: 21px; font-family: &quot;Google =
+Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-size: 14px;">
+<span style=3D"letter-spacing: 0.2px;"><i>On behalf of Google Cloud, THANK =
+YOU for your dedication and strategic leadership in our collaboration. Your=
+ work has been instrumental in laying the foundation for a successuful alli=
+ance in Spain. Thanks to your support,
+ we have achieved concrete, high-value successes, like Bankinter and IB Sal=
+ut. Your strategic vision, technical acumen, and collaborative spirit helpe=
+d position Kyndryl ES as a key reference point for evolving from a traditio=
+nal infra player into a strategic
+ Data &amp; AI partner for Google Cloud. To many more collaborations!</i></=
+span></div>
+</td>
+<td style=3D"direction: ltr; padding-right: 24px; vertical-align: bottom;">=
+<img width=3D"41" style=3D"width: 41px; max-width: 100%;" src=3D"https://ww=
+w.gstatic.com/gumdrop/files/google-cloud-partners-quotation-right-desk-tran=
+sparent-w84px-h63px-2x.png"></td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"direction: ltr; line-height: 21px; padding-top: =
+12px; padding-left: 82px; color: rgb(32, 33, 36);">
+<div style=3D"direction: ltr; line-height: 21px; font-family: &quot;Google =
+Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-size: 14px;">
+<span style=3D"letter-spacing: 0.25px;">Your Google Cloud&nbsp;Team</span><=
+/div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"direction: ltr; padding-right: 40px; padding-=
+bottom: 60px; padding-left: 40px;">
+</td>
+</tr>
+<tr>
+<td align=3D"center" style=3D"direction: ltr; background-color: rgb(248, 24=
+9, 250);">
+<table role=3D"presentation" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" style=3D"direction: ltr; text-align: left; margin: 0px auto; width: 640p=
+x;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; text-align: center; padding-top: 12px; padding=
+-right: 5px; padding-bottom: 46px;">
+<table align=3D"left" role=3D"presentation" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" style=3D"direction: ltr;">
+<tbody>
+<tr>
+<td style=3D"direction: ltr; text-align: left; padding-top: 17px; padding-b=
+ottom: 10px;">
+<img width=3D"154" style=3D"width: 154px; max-width: 100%;" src=3D"https://=
+www.gstatic.com/gumdrop/files/google-cloud-partners-grey-logo-transparent-w=
+308px-h54px-2x.png"></td>
+</tr>
+<tr>
+<td style=3D"direction: ltr; text-align: left; line-height: 21px; padding-t=
+op: 2px; word-break: normal; color: rgb(32, 33, 36);">
+<div style=3D"direction: ltr; text-align: left; line-height: 21px; font-fam=
+ily: &quot;Google Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-si=
+ze: 14px;">
+<span style=3D"letter-spacing: 0.2px;">=A9 2025 Google LLC</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: ltr; text-align: left; line-height: 21px; word-brea=
+k: normal; color: rgb(32, 33, 36);">
+<div style=3D"direction: ltr; text-align: left; line-height: 21px; font-fam=
+ily: &quot;Google Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-si=
+ze: 14px;">
+<span style=3D"letter-spacing: 0.2px;">1600 Amphitheatre Parkway, Mountain =
+View, CA 94043</span></div>
+</td>
+</tr>
+<tr>
+<td style=3D"direction: ltr; text-align: left; line-height: 21px; padding-t=
+op: 16px; word-break: normal; color: rgb(32, 33, 36);">
+<div style=3D"direction: ltr; text-align: left; line-height: 21px; font-fam=
+ily: &quot;Google Sans&quot;, Roboto, Arial, Helvetica, sans-serif; font-si=
+ze: 14px;">
+<span style=3D"letter-spacing: 0.2px;">This email was sent to <a href=3D"ma=
+ilto:Miguel.Tablado.Leon@kyndryl.com" id=3D"OWAfced8056-ff7b-3a9f-a64f-6b83=
+14584600" class=3D"OWAAutoLink">
+Miguel.Tablado.Leon@kyndryl.com</a>. You have received this email because y=
+ou are a part of the Google Cloud Partner All-stars Program. If you would n=
+o longer like to receive All-star emails,
+<a href=3D"https://urldefense.proofpoint.com/v2/url?u=3Dhttps-3A__docs.goog=
+le.com_forms_d_e_1FAIpQLSfZLVxlBAmMHU-5FErqgD7vbsy0tFAWm7MRoJezodzz-2DoR98I=
+mQ_viewform&amp;d=3DDwMFaQ&amp;c=3DcCoa5WWAB7EEETJScYfkXg&amp;r=3DszVgcPNgs=
+wUVw4NaRSchdYJn07qSDKZrxrcUgD5-ces&amp;m=3DhaUbbYSMljcoqstBB5XEKb2Gm_uMJBGy=
+WLbp7AR9WfgxPsK-oQZqmB-tkrHFRpU1&amp;s=3Dh9RCWcqRJSgwd_be4-6Z9OnM6YSkXl2MBR=
+VbBN0ubQE&amp;e=3D" id=3D"OWAc35079dc-611b-ab37-9049-3e2c604a8b24" class=3D=
+"OWAAutoLink" data-auth=3D"NotApplicable">
+unsubscribe here</a>.</span></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div style=3D"direction: ltr; font-family: Times; font-size: 12pt; color: r=
+gb(0, 0, 0);">
+<img width=3D"3" height=3D"1" style=3D"width: 3px; height: 1px;" src=3D"htt=
+ps://www.gstatic.com/gumdrop/files/adsense-spacer-transparent-w3px-h1px-1x.=
+gif"></div>
+</blockquote>
+</body>
+</html>
+
+--_000_BE1P281MB2451FC3AA64EA584A5604855ACE82BE1P281MB2451DEUP_--
