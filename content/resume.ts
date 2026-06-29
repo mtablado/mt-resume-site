@@ -164,6 +164,11 @@ export const awards: {
     year: "2025",
   },
   {
+    title: "The Heart of Kyndryl — Inaugural Honoree",
+    issuer: "Kyndryl",
+    year: "2024",
+  },
+  {
     title: "Kyndryl Top Voice — Data, AI & Cloud",
     issuer: "Kyndryl Spain & Portugal",
     year: "2022–present",
