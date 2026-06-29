@@ -3,6 +3,7 @@ import {
   name as NAME,
   title as TITLE,
   contact as CONTACT,
+  summary as SUMMARY,
   skills as SKILLS,
 } from "@/content/resume";
 
@@ -73,6 +74,19 @@ export default function HomePage() {
               Contact
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Introduction */}
+      <section className="px-6 py-16" style={{ backgroundColor: "#f1f5f9" }}>
+        <div className="max-w-3xl mx-auto text-center">
+          <p
+            className="text-xs font-bold uppercase tracking-[0.2em] mb-4"
+            style={{ color: NAVY }}
+          >
+            Introduction
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed text-justify">{SUMMARY}</p>
         </div>
       </section>
 

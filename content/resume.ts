@@ -9,11 +9,12 @@ export const contact = {
 };
 
 export const summary =
-  "Technician turned executive with 20+ years across software engineering, cloud " +
-  "architecture, and AI. I bridge the technical and business worlds — leading " +
-  "engineering teams, defining AI and data strategies, and representing companies " +
-  "at industry events and media. Currently CTO for Applications, Data & AI at " +
-  "Kyndryl Spain & Portugal.";
+  "With over two decades of experience across software engineering, cloud architecture, and Agentic AI. " +
+  "I bridge the gap between technical complexity and business strategy, leading high-performing engineering teams " +
+  "to deliver transformative solutions. My leadership style is rooted in respect and mentorship, fostering personal " +
+  "growth and driving sustained team engagement. I partner closely with customers to translate their requirements " +
+  "into scalable success, and I am a frequent public speaker at industry forums, including Google Summit, WakeUp! Spain, " +
+  "and Forbes.";
 
 export const skills: Record<string, string[]> = {
   "AI & Data": [
@@ -26,7 +27,7 @@ export const skills: Record<string, string[]> = {
     "Landing Zones", "Kubernetes", "OpenShift",
     "Cloud Native Solutions",
   ],
-  "Applications": [
+  "Applications ": [
     "Solution Design", "Observability", "SDLC", "Agentic Development",
   ],
   "Leadership": [

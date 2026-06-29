@@ -39,11 +39,6 @@ function Sidebar() {
       style={{ backgroundColor: "#f1f5f9" }}
     >
       <section>
-        <SectionHeading>Summary</SectionHeading>
-        <p className="text-gray-600 leading-relaxed">{SUMMARY}</p>
-      </section>
-
-      <section>
         <SectionHeading>Skills</SectionHeading>
         <div className="space-y-2">
           {Object.entries(SKILLS).map(([category, skills]) => (
@@ -187,6 +182,12 @@ export default function CVPage() {
               </div>
             </div>
           </header>
+
+          {/* Opening Statement */}
+          <div className="px-10 py-6 border-b border-gray-200" style={{ backgroundColor: "#f8fafc" }}>
+            <SectionHeading>Opening Statement</SectionHeading>
+            <p className="text-sm text-gray-600 leading-relaxed text-justify">{SUMMARY}</p>
+          </div>
 
           {/* Body */}
           <div className="flex" style={{ minHeight: 1013 }}>
