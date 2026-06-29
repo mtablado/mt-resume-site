@@ -54,9 +54,13 @@ export const experience: {
     period: "November 2021 – Present",
     location: "Barcelona, Spain",
     bullets: [
+      "Defining and implementing Agentic platforms and solutions in Finantial and Utilities sectors",
+      "Defined the solution of a large advance analytics platform for a bank within Google, including Data and AI implementation and operations",
+      "Defined and led the implementation of a new Genomics Platform based on Healthcare Data and AI Platform for Institut Balear de Salud",
+      "Defined the strategy of Observability adoption with Dynatrace for one of the largest Spanish banks",
+      "Defined the portfolio of Applications, Observability, Data and Artificial Intelligence",
       "Led expert team to define and deliver ADAI solutions for enterprise customers, creating the ADAI portfolio from the ground up after Kyndryl's spin-off from IBM.",
       "Multiplied ×4 business results on signings within the ADAI practice.",
-      "Founded the Academy of Strategy and Innovation; member of Fundación COTEC.",
       "Kyndryl Top Voice in Spain & Portugal on Data and AI — publications, conferences and panel member at industry events.",
       "Led Cloud Advisory Services team, creating the Enterprise Landing Zone concept to design and deploy landing zones automatically.",
     ],
@@ -136,11 +140,6 @@ export const education: {
     degree: "Certificate Program in Agentic AI",
     institution: "Johns Hopkins University",
     period: "2026",
-  },
-  {
-    degree: "Agentic AI and AI Agents: A Primer for Leaders",
-    institution: "Vanderbilt University",
-    period: "2025",
   },
   {
     degree: "Máster en Data Science",
