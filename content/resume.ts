@@ -142,12 +142,12 @@ export const education: {
     period: "2026",
   },
   {
-    degree: "Máster en Data Science",
+    degree: "Masters Degree in Data Science",
     institution: "Universitat Oberta de Catalunya (UOC)",
     period: "2021 – 2023",
   },
   {
-    degree: "Ingeniero Técnico en Informática de Gestión",
+    degree: "Bachelor’s Degree in Information Systems Engineering",
     institution: "Universitat Autònoma de Barcelona (UAB)",
     period: "2001 – 2005",
   },
