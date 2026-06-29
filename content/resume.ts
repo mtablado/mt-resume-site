@@ -132,6 +132,16 @@ export const education: {
   period: string;
 }[] = [
   {
+    degree: "Certificate Program in Agentic AI",
+    institution: "Johns Hopkins University",
+    period: "2026",
+  },
+  {
+    degree: "Agentic AI and AI Agents: A Primer for Leaders",
+    institution: "Vanderbilt University",
+    period: "2025",
+  },
+  {
     degree: "Máster en Data Science",
     institution: "Universitat Oberta de Catalunya (UOC)",
     period: "2021 – 2023",
@@ -148,16 +158,6 @@ export const awards: {
   issuer: string;
   year: string;
 }[] = [
-  {
-    title: "Certificate Program in Agentic AI",
-    issuer: "Johns Hopkins University",
-    year: "2026",
-  },
-  {
-    title: "Agentic AI and AI Agents: A Primer for Leaders",
-    issuer: "Vanderbilt University",
-    year: "2025",
-  },
   {
     title: "Kyndryl Top Voice — Data, AI & Cloud",
     issuer: "Kyndryl Spain & Portugal",
