@@ -54,6 +54,9 @@ export const experience: {
     period: "November 2021 – Present",
     location: "Barcelona, Spain",
     bullets: [
+      "Head the Forward Deployed Engineering team, delivering strategic AI engagements and accelerating customer adoption of innovative AI solutions.",
+      "Lead the creation and execution of the Kyndryl AI Lab in Iberia, driving the development of agentic AI prototypes and customer-focused innovation initiatives.",
+      "Lead the transformation of Kyndryl Managed Services across Iberia through the adoption of agentic AI, accelerating service innovation, increasing automation, and improving operational efficiency.",
       "Defining and implementing Agentic platforms and solutions in Finantial and Utilities sectors",
       "Defined the solution of a large advance analytics platform for a bank within Google, including Data and AI implementation and operations",
       "Defined and led the implementation of a new Genomics Platform based on Healthcare Data and AI Platform for Institut Balear de Salud",
