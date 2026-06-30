@@ -31,7 +31,7 @@ export const skills: Record<string, string[]> = {
     "Solution Design", "Observability", "SDLC", "Agentic Development",
   ],
   "Leadership": [
-    "Leading by Example", "Innovation", "Public Speaking", "Coach & Mentor", "Strategic Thinking",
+    "Leading by Example", "Innovation", "Public Speaking", "Coach & Mentor", "Strategic Thinking", "FDE",
   ],
 };
 
