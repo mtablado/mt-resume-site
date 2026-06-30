@@ -39,36 +39,21 @@ export default function AwardsPage() {
             AI Innovation
           </h3>
 
-          {/* Badge graphic */}
-          <div className="flex items-center justify-center mb-10">
-            <div
-              className="w-64 h-64 rounded-full flex flex-col items-center justify-center text-center shadow-xl"
-              style={{ backgroundColor: "#f0f4ff", border: "3px solid #4285F4" }}
-            >
-              <div className="flex gap-2 mb-4">
-                {["#EA4335", "#FBBC05", "#34A853", "#4285F4"].map((c) => (
-                  <span
-                    key={c}
-                    className="w-3 h-3 rounded-full"
-                    style={{ backgroundColor: c }}
-                  />
-                ))}
-              </div>
-              <p className="text-xs font-bold uppercase tracking-widest text-gray-500 mb-1">
-                Partner All-star
-              </p>
-              <p className="text-2xl font-extrabold" style={{ color: "#4285F4" }}>
-                AI Innovation
-              </p>
-              <p className="text-xs text-gray-400 mt-2">Google Cloud · 2025</p>
-            </div>
+          {/* Award image */}
+          <div className="rounded-2xl overflow-hidden mb-10 shadow-xl max-w-3xl mx-auto">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={`${BASE}/awards/Miguel Tablado AI Innovation Headshot _ 2025 Partner All-stars_.png`}
+              alt="Miguel Tablado León — Google Cloud 2025 Partner All-star AI Innovation"
+              className="w-full object-cover"
+            />
           </div>
 
           <p className="text-gray-600 leading-relaxed max-w-2xl mx-auto">
             Recognised by Google Cloud as a Partner All-star for AI Innovation —
-            awarded to a select group of individuals whose work has driven
-            exceptional outcomes in artificial intelligence solutions and
-            partner ecosystem impact.
+            awarded to a select group of individuals whose work has driven{" "}
+            <strong>exceptional outcomes in artificial intelligence solutions</strong>{" "}
+            and partner ecosystem impact.
           </p>
         </div>
       </section>
