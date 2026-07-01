@@ -1,5 +1,3 @@
-// Placeholder content — replace with real talks/articles/press from LinkedIn.
-
 export type PublicationType = "talk" | "article" | "panel" | "press" | "podcast";
 
 export interface Publication {
@@ -50,63 +48,14 @@ export const publications: Publication[] = [
     eventBadge: "Google Summit",
   },
   {
-    type: "talk",
-    title: "Agentic AI in the Enterprise: From Pilots to Production",
-    venue: "Google Cloud Summit Madrid",
-    date: "May 2025",
-    url: "#",
-    description:
-      "A look at how enterprises can scale agentic AI patterns beyond proof-of-concept, with a focus on regulated industries.",
-    thumbnail: "/speaking/google-summit-madrid-2025.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=REPLACE_ME_1",
-  },
-  {
-    type: "article",
-    title: "Why Every CTO Needs an AI Adoption Playbook",
-    venue: "LinkedIn Articles",
-    date: "February 2025",
-    url: "#",
-    description:
-      "A pragmatic perspective on sequencing AI adoption and governance for technology leaders.",
-    thumbnail: "/speaking/ai-adoption-playbook-article.jpg",
-  },
-  {
     type: "panel",
-    title: "The Future of Data Platforms in Financial Services",
-    venue: "WakeUp! Spain",
-    date: "November 2024",
+    title: "People Management in Spain: How to Adapt Talent and Business Management by Industry",
+    venue: "Factorial Summit (El Confidencial)",
+    date: "October 8, 2025",
     url: "#",
     description:
-      "Panel discussion with banking and utilities leaders on modern data platform strategy.",
-    thumbnail: "/speaking/wakeup-spain-panel-2024.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=REPLACE_ME_2",
-  },
-  {
-    type: "press",
-    title: "Kyndryl's Top Voices on AI Transformation in Iberia",
-    venue: "Forbes España",
-    date: "September 2024",
-    url: "#",
-    description: "Feature interview on leading AI transformation initiatives across Spain and Portugal.",
-    thumbnail: "/speaking/forbes-espana-feature-2024.jpg",
-  },
-  {
-    type: "podcast",
-    title: "Scaling Cloud-Native Architectures with Agentic AI",
-    venue: "CloudTalks Podcast",
-    date: "July 2024",
-    url: "#",
-    description: "A conversation on combining cloud-native architecture with emerging agentic AI patterns.",
-    thumbnail: "/speaking/cloudtalks-podcast-2024.jpg",
-  },
-  {
-    type: "talk",
-    title: "Building the Kyndryl AI Lab: Lessons from the Field",
-    venue: "Kyndryl Iberia Innovation Day",
-    date: "March 2024",
-    url: "#",
-    description: "Keynote on standing up an internal AI innovation lab and the lessons learned along the way.",
-    thumbnail: "/speaking/kyndryl-innovation-day-2024.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=REPLACE_ME_3",
+      "Panelist in the 'Mesa Redonda Factorial Summit' round table, alongside Leticia Manero (Telefónica Pymes, Business Development), Patricia López (Mercer, Director of Strategic Health & Corporate Wellbeing Consulting), and Manuel Jiménez (Santander, Head of Talent and Culture), moderated by Lucía Puerto (El Confidencial). Discussed how people management in Spain — talent strategy, HR practices, and business management — needs to adapt depending on the industry.",
+    thumbnail: "/speaking/factorial-summit-mesa-redonda.jpg",
+    videoUrl: "https://www.youtube.com/watch?v=ZBqDHXA5ubs",
   },
 ];
