@@ -11,6 +11,7 @@ const links = [
   { href: "/experience", label: "Experience" },
   { href: "/education", label: "Education" },
   { href: "/awards", label: "Awards & Recognitions" },
+  { href: "/speaking", label: "Speaking" },
 ];
 
 const CV_HREF = "/cv";
