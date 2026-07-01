@@ -1,8 +1,37 @@
 "use client";
 
 import { useState } from "react";
+import { name as NAME } from "@/content/resume";
 
 const NAVY = "#1e3a5f";
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function addFooter(pdf: any) {
+  const totalPages = pdf.internal.getNumberOfPages();
+  const pageWidth = pdf.internal.pageSize.getWidth();
+  const pageHeight = pdf.internal.pageSize.getHeight();
+  const generatedOn = new Date().toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  });
+
+  for (let i = 1; i <= totalPages; i++) {
+    pdf.setPage(i);
+
+    pdf.setDrawColor(203, 213, 225); // slate-300
+    pdf.setLineWidth(0.2);
+    pdf.line(10, pageHeight - 12, pageWidth - 10, pageHeight - 12);
+
+    pdf.setFont("helvetica", "normal");
+    pdf.setFontSize(8);
+    pdf.setTextColor(100, 116, 139); // slate-500
+    pdf.text(`${NAME} · Generated ${generatedOn}`, 10, pageHeight - 7);
+    pdf.text(`Page ${i} of ${totalPages}`, pageWidth - 10, pageHeight - 7, {
+      align: "right",
+    });
+  }
+}
 
 export default function DownloadButton() {
   const [loading, setLoading] = useState(false);
@@ -84,6 +113,10 @@ export default function DownloadButton() {
           pagebreak: { mode: "avoid-all" },
         })
         .from(element)
+        .toPdf()
+        .get("pdf")
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .then((pdf: any) => addFooter(pdf))
         .output("bloburl")
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         .then((url: string) => {
