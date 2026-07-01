@@ -10,11 +10,6 @@ function addFooter(pdf: any) {
   const totalPages = pdf.internal.getNumberOfPages();
   const pageWidth = pdf.internal.pageSize.getWidth();
   const pageHeight = pdf.internal.pageSize.getHeight();
-  const generatedOn = new Date().toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  });
 
   for (let i = 1; i <= totalPages; i++) {
     pdf.setPage(i);
@@ -26,7 +21,7 @@ function addFooter(pdf: any) {
     pdf.setFont("helvetica", "normal");
     pdf.setFontSize(8);
     pdf.setTextColor(100, 116, 139); // slate-500
-    pdf.text(`${NAME} · Generated ${generatedOn}`, 10, pageHeight - 7);
+    pdf.text(NAME, 10, pageHeight - 7);
     pdf.text(`Page ${i} of ${totalPages}`, pageWidth - 10, pageHeight - 7, {
       align: "right",
     });
@@ -56,7 +51,7 @@ export default function DownloadButton() {
       (window as any)
         .html2pdf()
         .set({
-          margin: 0,
+          margin: [0, 0, 12, 0],
           filename: "miguel-tablado-resume.pdf",
           image: { type: "jpeg", quality: 0.98 },
           html2canvas: {
