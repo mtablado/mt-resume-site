@@ -58,4 +58,26 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/factorial-summit-mesa-redonda.jpg",
     videoUrl: "https://www.youtube.com/watch?v=ZBqDHXA5ubs",
   },
+  {
+    type: "panel",
+    title: "Wake Up, Spain! 2026: Crecimiento, cohesión e incertidumbre",
+    venue: "Wake Up Spain (El Español)",
+    date: "April 15, 2026",
+    url: "#",
+    description:
+      "Panelist at Wake Up, Spain! 2026, El Español's forum on growth, cohesion, and uncertainty in the Spanish economy.",
+    thumbnail: "/speaking/wake-up-spain-2026.png",
+    videoUrl: "https://www.youtube.com/live/4Bjge0QEV-0?t=8400s",
+  },
+  {
+    type: "talk",
+    title: "Agentic AI at Insurance Industry: From Vision to Reality",
+    venue: "Semana del Seguro (INESE)",
+    date: "February 2026",
+    url: "https://www.linkedin.com/posts/mtablado_ia-agaezntica-seguros-activity-7432702373187301376-6qNP",
+    description:
+      "At Semana del Seguro 2026, I co-presented the Kyndryl session 'Agentic AI in Insurance: From Vision to Reality' with Juan José Cerrolaza, PhD, tackling one of the most profound shifts underway in the sector. Agentic AI isn't just advanced automation or a smarter chatbot — it's an operating model built on multi-agent systems that can reason, decide, act, and coordinate with each other within core processes. The demo showcased agents with interoperability across hybrid architectures, end-to-end observability, contextual decision-making, and integration with legacy systems. But the real challenge in insurance isn't technical — it's structural: highly regulated environments demand graduated autonomy (human-in-the-loop / human-on-the-loop), full decision traceability, data governance aligned with the AI Act and DORA, continuous monitoring of drift and emergent behavior, and resilient, scalable cloud architectures.",
+    thumbnail: "/speaking/inese-semana-del-seguro-2026.png",
+    eventBadge: "INESE",
+  },
 ];
