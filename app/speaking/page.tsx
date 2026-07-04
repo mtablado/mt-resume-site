@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { contact as CONTACT } from "@/content/resume";
 import ExpandableText from "./ExpandableText";
 import {
+  featuredAtLogos,
   introStatement,
   publications,
   type Publication,
   type PublicationType,
 } from "@/content/speaking";
 
-export const metadata: Metadata = { title: "Speaking & Thought Leadership" };
+export const metadata: Metadata = { title: "Public Presence & Thought Leadership" };
 
 const NAVY = "#1e3a5f";
 const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
@@ -100,11 +101,37 @@ export default function SpeakingPage() {
           Thought Leadership
         </p>
         <h1 className="text-5xl font-bold text-white tracking-tight">
-          Speaking &amp; Thought Leadership
+          Public Presence &amp; Thought Leadership
         </h1>
         <p className="mt-4 text-lg max-w-2xl mx-auto" style={{ color: "#bfdbfe" }}>
           {introStatement}
         </p>
+      </section>
+
+      {/* ── Featured at ───────────────────────────────────────────────────── */}
+      <section className="bg-white py-14 px-6 border-b border-gray-100">
+        <div className="max-w-5xl mx-auto">
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-center text-gray-400 mb-10">
+            Featured At
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
+            {featuredAtLogos.map((logo) => (
+              <div
+                key={logo.name}
+                className={`flex items-center ${logo.dark ? "rounded-md px-3 py-2" : ""}`}
+                style={logo.dark ? { backgroundColor: NAVY } : undefined}
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={`${BASE}${logo.src}`}
+                  alt={logo.name}
+                  title={logo.name}
+                  className="h-7 sm:h-8 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-200"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
       {/* ── Featured ──────────────────────────────────────────────────────── */}

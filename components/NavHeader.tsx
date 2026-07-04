@@ -10,8 +10,8 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/experience", label: "Experience" },
   { href: "/education", label: "Education" },
+  { href: "/speaking", label: "Public Presence" },
   { href: "/awards", label: "Awards & Recognitions" },
-  { href: "/speaking", label: "Speaking" },
 ];
 
 const CV_HREF = "/cv";

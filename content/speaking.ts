@@ -17,6 +17,25 @@ export interface Publication {
   eventBadge?: string;
 }
 
+export interface FeaturedAtLogo {
+  name: string;
+  /** Path relative to public/, e.g. "/logos/google-cloud.svg" */
+  src: string;
+  /** Logo is designed for a dark background (e.g. white/light wordmark) — render on a navy chip */
+  dark?: boolean;
+}
+
+/** Companies, events, and media outlets to showcase as a "Featured At" logo strip */
+export const featuredAtLogos: FeaturedAtLogo[] = [
+  { name: "Google Cloud AI Live", src: "/logos/google-cloud.svg" },
+  { name: "Dynatrace", src: "/logos/dynatrace.png" },
+  { name: "Factorial", src: "/logos/factorial.svg" },
+  { name: "El Confidencial", src: "/logos/el-confidencial.png" },
+  { name: "El Español", src: "/logos/el-espanol.svg" },
+  { name: "INESE", src: "/logos/inese.png" },
+  { name: "Wake Up! Spain", src: "/logos/wake-up-spain.svg", dark: true },
+];
+
 export const introStatement: string =
   "Beyond my day-to-day role as CTO, I'm a frequent voice in the industry conversation around " +
   "Agentic AI, cloud architecture, and technology leadership — recognized as a LinkedIn Top Voice " +
