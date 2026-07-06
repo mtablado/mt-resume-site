@@ -15,6 +15,8 @@ export interface Publication {
   featured?: boolean;
   /** Short, prominent tag for a notable venue (e.g. "Google Summit"), shown as its own accent pill */
   eventBadge?: string;
+  /** Show the thumbnail in full (letterboxed) instead of cropping it to fill the 16:9 frame */
+  preserveThumbnail?: boolean;
 }
 
 export interface FeaturedAtLogo {
@@ -119,5 +121,16 @@ export const publications: Publication[] = [
     description:
       "Interview with directorTIC.es on how agentic AI is moving from experimentation to operational deployment in mission-critical sectors. In healthcare, AI supports personalized medicine through genomic analysis and administrative automation, while financial institutions use agentic systems to speed up incident response. Miguel discusses why successful adoption requires cultural transformation, robust data platforms, observability, and governance — including Kyndryl's 'policy as code' approach, which translates regulatory requirements into machine-readable policies. As he puts it: 'I've moved from knowing the process I need to protect to understanding a system with decision-making freedom.' Originally shared on LinkedIn by Inma Elizalde.",
     thumbnail: "/speaking/kyndryl-agentic-ai-directortic-2026.png",
+  },
+  {
+    type: "talk",
+    title: "Kyndryl AI360: Ascenso hacia un modelo MLOps",
+    venue: "SILC 2024 — Comillas Pontifical University, Santander",
+    date: "October 7, 2024",
+    url: "https://www.linkedin.com/posts/mtablado_the-second-day-of-silc-2024-is-over-and-so-activity-7245377477093584896-zyg4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAILaNcB1cpdF4v8DfOBDg5FsZNqTit1mvM",
+    description:
+      "The presentation was delivered by Miguel Tablado, Chief Technology Officer at Kyndryl, and Javier Menéndez Pallo, the company's Artificial Intelligence Advisor and co-creator of the Spanish chapter of the Global AI Community. Their session, focused on the integration of Artificial Intelligence (AI) in various industries, centered on building a 360-degree AI model. They provided several real-world examples of how AI is transforming industrial processes, emphasizing the importance of strategic partnerships in designing effective AI strategies.",
+    thumbnail: "/speaking/silc-2024-comillas-ai360-mlops.png",
+    preserveThumbnail: true,
   },
 ];

@@ -35,7 +35,11 @@ function VideoThumb({ pub, className }: { pub: Publication; className: string })
       className={`relative block group ${className}`}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`${BASE}${pub.thumbnail}`} alt={pub.title} className="w-full h-full object-cover" />
+      <img
+        src={`${BASE}${pub.thumbnail}`}
+        alt={pub.title}
+        className={`w-full h-full ${pub.preserveThumbnail ? "object-contain bg-black" : "object-cover"}`}
+      />
       {hasVideo && (
         <span className="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/35 transition-colors">
           <span className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow-lg">
