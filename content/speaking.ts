@@ -36,6 +36,7 @@ export const featuredAtLogos: FeaturedAtLogo[] = [
   { name: "El Español", src: "/logos/el-espanol.svg" },
   { name: "INESE", src: "/logos/inese.png" },
   { name: "Wake Up! Spain", src: "/logos/wake-up-spain.svg", dark: true },
+  { name: "Codemotion", src: "/logos/codemotion.png" },
 ];
 
 export const introStatement: string =
@@ -131,6 +132,17 @@ export const publications: Publication[] = [
     description:
       "The presentation was delivered by Miguel Tablado, Chief Technology Officer at Kyndryl, and Javier Menéndez Pallo, the company's Artificial Intelligence Advisor and co-creator of the Spanish chapter of the Global AI Community. Their session, focused on the integration of Artificial Intelligence (AI) in various industries, centered on building a 360-degree AI model. They provided several real-world examples of how AI is transforming industrial processes, emphasizing the importance of strategic partnerships in designing effective AI strategies.",
     thumbnail: "/speaking/silc-2024-comillas-ai360-mlops.png",
+    preserveThumbnail: true,
+  },
+  {
+    type: "panel",
+    title: "CTO Panel: Transicionando al liderazgo futuro",
+    venue: "Codemotion Madrid 2024",
+    date: "May 21, 2024",
+    url: "https://www.linkedin.com/posts/mtablado_codemotionmadrid24-kyndryl-activity-7199059991033442306-tXwf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAILaNcB1cpdF4v8DfOBDg5FsZNqTit1mvM",
+    description:
+      "Panelist in 'CTO Panel: Transicionando al liderazgo futuro' at Codemotion Madrid 2024, alongside Álvaro Moya (CTO & Founder, LIDR.co), Rafael Serrano (CTO, Civitatis), and Miriam Bayona (CTO, Quipu). In this panel I shared how AI is shifting developers' activities and routines, and how Agile methodologies and leadership require human-being KPIs to be implemented to adjust how team performance is measured. The leader must apply a corrective factor to 'objective' KPIs, even more so in the era of AI.",
+    thumbnail: "/speaking/codemotion-madrid-2024-cto-panel.png",
     preserveThumbnail: true,
   },
 ];
