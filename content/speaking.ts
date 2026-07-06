@@ -70,13 +70,13 @@ export const publications: Publication[] = [
     relevance: 2,
   },
   {
-    type: "panel",
+    type: "talk",
     title: "IBSalut & Kyndryl - Advanced AI in Regulated Industries with Gemini",
     venue: "Google Cloud AI Live, Madrid 2026 (Google Summit) — IFEMA, Madrid",
     date: "May 25, 2026",
     url: "https://www.linkedin.com/posts/mtablado_atenci%C3%B3n-quiero-anunciar-la-participaci%C3%B3n-activity-7465033168249671680-_vb4",
     description:
-      "Invited to speak at Google Cloud AI Live, Madrid 2026 — Google's flagship regional Summit — as a panelist alongside Alberto Guzmán (Google) and Miguel Ángel Benito (IBSalut). We discussed how Kyndryl helped IBSalut build their Genomic Platform of Expert Analysis for Precision Medicine — a clinical-genomic platform developed with the Govern de les Illes Balears and GenIB6P, running advanced AI in a regulated healthcare environment with Gemini. My segment appears in the final 15 minutes of the recording.",
+      "Invited to speak at Google Cloud AI Live, Madrid 2026 — Google's flagship regional Summit — alongside Alberto Guzmán (Google) and Miguel Ángel Benito (IBSalut). We discussed how Kyndryl helped IBSalut build their Genomic Platform of Expert Analysis for Precision Medicine — a clinical-genomic platform developed with the Govern de les Illes Balears and GenIB6P, running advanced AI in a regulated healthcare environment with Gemini. My segment appears in the final 15 minutes of the recording.",
     thumbnail: "/speaking/ibsalut-kyndryl-genomic-platform-gemini.png",
     videoUrl: "https://youtu.be/bTpH4Wt5w-U",
     eventBadge: "Google Summit",
