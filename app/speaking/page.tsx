@@ -49,6 +49,12 @@ function VideoThumb({ pub, className }: { pub: Publication; className: string })
   );
 }
 
+function videoLabel(videoUrl: string): string {
+  if (videoUrl.includes("youtube.com") || videoUrl.includes("youtu.be")) return "Watch on YouTube";
+  if (videoUrl.includes("dailymotion.com")) return "Watch on Dailymotion";
+  return "Watch video";
+}
+
 function CtaButtons({ pub }: { pub: Publication }) {
   const hasVideo = Boolean(pub.videoUrl && pub.videoUrl !== "#");
   const hasLink = Boolean(pub.url && pub.url !== "#");
@@ -67,7 +73,7 @@ function CtaButtons({ pub }: { pub: Publication }) {
           <svg viewBox="0 0 24 24" className="w-3.5 h-3.5" fill="currentColor">
             <path d="M8 5v14l11-7z" />
           </svg>
-          Watch on YouTube
+          {videoLabel(pub.videoUrl!)}
         </a>
       )}
       {hasLink && (

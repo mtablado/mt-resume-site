@@ -89,6 +89,17 @@ export const publications: Publication[] = [
     videoUrl: "https://www.youtube.com/live/4Bjge0QEV-0?t=8400s",
   },
   {
+    type: "press",
+    title: "From Copilot to IoT: How AI Is Reshaping Everyday Work",
+    venue: "Wake Up Spain (El Español)",
+    date: "April 2024",
+    url: "#",
+    description:
+      "On-camera interview with EL ESPAÑOL at the IV edition of Wake Up, Spain!, sharing perspective as Kyndryl Spain's CTO of Data & AI on the themes of the forum. Miguel explains that the primary objective for most organizations is to use artificial intelligence to improve productivity, highlighting how large language models and tools such as Copilot are already helping employees and students write, summarize, and better understand information — making AI a practical part of everyday work. Looking ahead, he says the next step is to apply AI to more complex business processes by integrating it with technologies such as robotics, cameras, and IoT. Reflecting on his own experience using AI to improve presentations and written content, he concludes that AI is already transforming daily work and will eventually become so integrated into everyday life that people will no longer notice it as a distinct technology.",
+    thumbnail: "/speaking/wake-up-spain-2024-interview.jpg",
+    videoUrl: "https://www.dailymotion.com/video/x8wzsy2",
+  },
+  {
     type: "talk",
     title: "Agentic AI at Insurance Industry: From Vision to Reality",
     venue: "Semana del Seguro (INESE)",
