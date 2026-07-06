@@ -158,4 +158,15 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/foro-economico-comunitat-valenciana-2024.png",
     videoUrl: "https://www.youtube.com/watch?v=ZpUHzt2sHNQ&t=686s",
   },
+  {
+    type: "panel",
+    title: "Wake Up, Spain! 2024: Roundtable: AI and Its Real-World Application",
+    venue: "IV Wake Up Spain (El Español / Invertia / DISRUPTORES)",
+    date: "April 18, 2024",
+    url: "https://www.linkedin.com/posts/mtablado_ia-ia360-wakeupspain24-activity-7187044716692070400-kyaO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAILaNcB1cpdF4v8DfOBDg5FsZNqTit1mvM",
+    description:
+      "Panelist at IV Wake Up Spain, organized by EL ESPAÑOL, Invertia, and DISRUPTORES, in a round table on AI and its real-world application. Discussed the gap between companies' AI aspirations and reality, the shift toward world models, and how Kyndryl's AI360 helps clients across three pillars: Use Cases, Platforms & Architectures, and AI Governance & Operations. Shared the stage — impeccably and warmly moderated by Beatriz Aznar Millán — with Fernando Lázaro (CEO, SuperReal / MIO Group), Félix Gil (CEO, Integra Tecnología), Alberto García Arrieta (Managing Director of AI & Data, Accenture), and Miguel Lucas (Global Innovation Director, LLYC).",
+    thumbnail: "/speaking/wake-up-spain-2024-panel.png",
+    videoUrl: "https://www.youtube.com/watch?v=KH_8Bxfi6_c&t=10244s",
+  },
 ];
