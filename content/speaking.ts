@@ -10,12 +10,12 @@ export interface Publication {
   /** Canonical event/organizer name used for filtering, e.g. "Google Cloud", "Wake Up Spain" */
   event: string;
   /**
-   * Editorial relevance rank for the default "Relevance" sort — 1 is most relevant.
-   * Inferred from venue/partner prominence, content type (panels & talks over press
-   * soundbites), video availability, and career-highlight status. Independent of
-   * array order and of the "Date" sort.
+   * Editorial relevance tier for the default "Relevance" sort — 1 (most relevant) to 5
+   * (least). Ties within a tier are broken by date (newest first). Inferred from
+   * venue/partner prominence, content type (panels & talks over press soundbites), and
+   * video availability. Independent of array order and of the "Date" sort.
    */
-  relevance: number;
+  relevance: 1 | 2 | 3 | 4 | 5;
   /** Path relative to public/, e.g. "/speaking/google-summit-madrid.jpg" */
   thumbnail?: string;
   /** YouTube (or similar) recording of the talk/interview, if one exists */
@@ -67,7 +67,7 @@ export const publications: Publication[] = [
       "Joined Enrique García (CaixaBank) for a joint session on Business Observability and Operational Excellence at Dynatrace's Innovate Roadshow Madrid — the largest observability event in Spain — reinforcing our shared mission for CaixaBank to lead the observability space, always. Kyndryl joined Abast, Devoteam, and Inetum as sponsors of the event, as highlighted by Dynatrace Country Manager José Matías.",
     thumbnail: "/speaking/dynatrace-innovate-roadshow-madrid-2026.png",
     event: "Dynatrace",
-    relevance: 3,
+    relevance: 2,
   },
   {
     type: "panel",
@@ -108,7 +108,7 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/factorial-summit-mesa-redonda.jpg",
     videoUrl: "https://www.youtube.com/watch?v=ZBqDHXA5ubs",
     event: "Factorial",
-    relevance: 6,
+    relevance: 3,
   },
   {
     type: "panel",
@@ -121,7 +121,7 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/wake-up-spain-2026.png",
     videoUrl: "https://www.youtube.com/live/4Bjge0QEV-0?t=8400s",
     event: "Wake Up Spain",
-    relevance: 5,
+    relevance: 3,
   },
   {
     type: "press",
@@ -134,7 +134,7 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/wake-up-spain-2024-interview.jpg",
     videoUrl: "https://www.dailymotion.com/video/x8wzsy2",
     event: "Wake Up Spain",
-    relevance: 11,
+    relevance: 5,
   },
   {
     type: "talk",
@@ -147,7 +147,7 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/inese-semana-del-seguro-2026.png",
     eventBadge: "INESE",
     event: "INESE",
-    relevance: 9,
+    relevance: 4,
   },
   {
     type: "press",
@@ -159,7 +159,7 @@ export const publications: Publication[] = [
       "Interview with directorTIC.es on how agentic AI is moving from experimentation to operational deployment in mission-critical sectors. In healthcare, AI supports personalized medicine through genomic analysis and administrative automation, while financial institutions use agentic systems to speed up incident response. Miguel discusses why successful adoption requires cultural transformation, robust data platforms, observability, and governance — including Kyndryl's 'policy as code' approach, which translates regulatory requirements into machine-readable policies. As he puts it: 'I've moved from knowing the process I need to protect to understanding a system with decision-making freedom.' Originally shared on LinkedIn by Inma Elizalde.",
     thumbnail: "/speaking/kyndryl-agentic-ai-directortic-2026.png",
     event: "directorTIC.es",
-    relevance: 12,
+    relevance: 5,
   },
   {
     type: "talk",
@@ -172,7 +172,7 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/silc-2024-comillas-ai360-mlops.png",
     preserveThumbnail: true,
     event: "SILC",
-    relevance: 10,
+    relevance: 4,
   },
   {
     type: "panel",
@@ -185,7 +185,7 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/codemotion-madrid-2024-cto-panel.png",
     preserveThumbnail: true,
     event: "Codemotion",
-    relevance: 4,
+    relevance: 2,
   },
   {
     type: "panel",
@@ -198,7 +198,7 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/foro-economico-comunitat-valenciana-2024.png",
     videoUrl: "https://www.youtube.com/watch?v=ZpUHzt2sHNQ&t=686s",
     event: "Foro Económico CV",
-    relevance: 8,
+    relevance: 3,
   },
   {
     type: "panel",
@@ -211,6 +211,6 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/wake-up-spain-2024-panel.png",
     videoUrl: "https://www.youtube.com/watch?v=KH_8Bxfi6_c&t=10244s",
     event: "Wake Up Spain",
-    relevance: 7,
+    relevance: 3,
   },
 ];

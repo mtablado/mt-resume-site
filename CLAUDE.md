@@ -44,18 +44,18 @@ html2pdf.js is loaded from CDN at runtime. The download button lives in a `'use 
 
 ## Speaking page content (`content/speaking.ts`)
 
-Each `Publication` has a `relevance` field (1 = most relevant) used by the "Relevance" sort
-on the Speaking page. It's an editorial rank, not derived from the data automatically —
-when adding a new entry, infer its rank using this criteria, roughly in priority order:
+Each `Publication` has a `relevance` field — a tier from `1` (most relevant) to `5` (least),
+no decimals — used by the "Relevance" sort on the Speaking page. Ties within a tier are
+broken by date (newest first), so there's no need to keep tiers unique or re-balance
+existing entries when adding a new one — just pick the tier that fits. It's an editorial
+judgment, not derived from the data automatically; infer the tier using this criteria,
+roughly in priority order:
 
-1. **Featured/career-highlight status** — the `featured: true` entry is always rank 1.
+1. **Featured/career-highlight status** — a `featured: true` entry is always tier 1.
 2. **Venue/partner prominence** — major platforms and recognizable brand partners (e.g.
    Google Cloud, Dynatrace + CaixaBank) outrank regional forums or niche trade press.
 3. **Content type** — panels and talks outrank press soundbites/interviews.
 4. **Video availability** — entries with a recording generally outrank text-only ones.
-
-After inserting the new `relevance` value, shift any existing entries down (increment)
-if the new one should rank above them — there's no automatic re-balancing.
 
 ## Design requirements
 

@@ -142,7 +142,7 @@ export default function PublicationsExplorer({ publications }: { publications: P
     if (sortBy === "date") {
       return [...list].sort((a, b) => parseDate(b.date) - parseDate(a.date));
     }
-    return [...list].sort((a, b) => a.relevance - b.relevance);
+    return [...list].sort((a, b) => a.relevance - b.relevance || parseDate(b.date) - parseDate(a.date));
   }, [publications, query, activeCategories, activeEvents, sortBy]);
 
   const featuredMatches = filtered.filter((pub) => pub.featured);
