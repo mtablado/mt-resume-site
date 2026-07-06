@@ -121,7 +121,7 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/wake-up-spain-2026.png",
     videoUrl: "https://www.youtube.com/live/4Bjge0QEV-0?t=8400s",
     event: "Wake Up Spain",
-    relevance: 3,
+    relevance: 2,
   },
   {
     type: "press",
@@ -211,6 +211,6 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/wake-up-spain-2024-panel.png",
     videoUrl: "https://www.youtube.com/watch?v=KH_8Bxfi6_c&t=10244s",
     event: "Wake Up Spain",
-    relevance: 3,
+    relevance: 2,
   },
 ];
