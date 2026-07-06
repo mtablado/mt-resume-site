@@ -55,7 +55,7 @@ export const publications: Publication[] = [
   },
   {
     type: "panel",
-    title: "IBSALUT & KYNDRYL - IA Avanzada en Entornos Regulados con Gemini",
+    title: "IBSalut & Kyndryl - Advanced AI in Regulated Industries with Gemini",
     venue: "Google Cloud AI Live, Madrid 2026 (Google Summit) — IFEMA, Madrid",
     date: "May 25, 2026",
     url: "https://www.linkedin.com/posts/mtablado_atenci%C3%B3n-quiero-anunciar-la-participaci%C3%B3n-activity-7465033168249671680-_vb4",
