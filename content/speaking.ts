@@ -110,4 +110,14 @@ export const publications: Publication[] = [
     thumbnail: "/speaking/inese-semana-del-seguro-2026.png",
     eventBadge: "INESE",
   },
+  {
+    type: "press",
+    title: "Kyndryl Drives Agentic AI Adoption Across Industries",
+    venue: "directorTIC.es",
+    date: "March 2026",
+    url: "https://directortic.es/entrevista/kyndryl-impulsa-la-adopcion-de-ia-agentica-en-diferentes-sectores-2026031047995.htm",
+    description:
+      "Interview with directorTIC.es on how agentic AI is moving from experimentation to operational deployment in mission-critical sectors. In healthcare, AI supports personalized medicine through genomic analysis and administrative automation, while financial institutions use agentic systems to speed up incident response. Miguel discusses why successful adoption requires cultural transformation, robust data platforms, observability, and governance — including Kyndryl's 'policy as code' approach, which translates regulatory requirements into machine-readable policies. As he puts it: 'I've moved from knowing the process I need to protect to understanding a system with decision-making freedom.' Originally shared on LinkedIn by Inma Elizalde.",
+    thumbnail: "/speaking/kyndryl-agentic-ai-directortic-2026.png",
+  },
 ];
