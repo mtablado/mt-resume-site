@@ -42,6 +42,21 @@ public/           # Static assets (fonts, images)
 
 html2pdf.js is loaded from CDN at runtime. The download button lives in a `'use client'` component. Target A4 paper size. The resume layout must render well in print mode.
 
+## Speaking page content (`content/speaking.ts`)
+
+Each `Publication` has a `relevance` field (1 = most relevant) used by the "Relevance" sort
+on the Speaking page. It's an editorial rank, not derived from the data automatically —
+when adding a new entry, infer its rank using this criteria, roughly in priority order:
+
+1. **Featured/career-highlight status** — the `featured: true` entry is always rank 1.
+2. **Venue/partner prominence** — major platforms and recognizable brand partners (e.g.
+   Google Cloud, Dynatrace + CaixaBank) outrank regional forums or niche trade press.
+3. **Content type** — panels and talks outrank press soundbites/interviews.
+4. **Video availability** — entries with a recording generally outrank text-only ones.
+
+After inserting the new `relevance` value, shift any existing entries down (increment)
+if the new one should rank above them — there's no automatic re-balancing.
+
 ## Design requirements
 
 - Clean, professional design
