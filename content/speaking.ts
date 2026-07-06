@@ -37,6 +37,8 @@ export const featuredAtLogos: FeaturedAtLogo[] = [
   { name: "INESE", src: "/logos/inese.png" },
   { name: "Wake Up! Spain", src: "/logos/wake-up-spain.svg", dark: true },
   { name: "Codemotion", src: "/logos/codemotion.png" },
+  { name: "DISRUPTORES", src: "/logos/disruptores.png" },
+  { name: "Invertia", src: "/logos/invertia.png" },
 ];
 
 export const introStatement: string =
@@ -144,5 +146,16 @@ export const publications: Publication[] = [
       "Panelist in 'CTO Panel: Transicionando al liderazgo futuro' at Codemotion Madrid 2024, alongside Álvaro Moya (CTO & Founder, LIDR.co), Rafael Serrano (CTO, Civitatis), and Miriam Bayona (CTO, Quipu). In this panel I shared how AI is shifting developers' activities and routines, and how Agile methodologies and leadership require human-being KPIs to be implemented to adjust how team performance is measured. The leader must apply a corrective factor to 'objective' KPIs, even more so in the era of AI.",
     thumbnail: "/speaking/codemotion-madrid-2024-cto-panel.png",
     preserveThumbnail: true,
+  },
+  {
+    type: "panel",
+    title: "Roundtable 'Technology': The Challenges of Reconstruction and Progress",
+    venue: "III Foro Económico de la Comunitat Valenciana (DISRUPTORES / INVERTIA / El Español), Valencia",
+    date: "December 18, 2024",
+    url: "https://www.elespanol.com/eventos/2024/foro-economico-de-la-comunitat-valenciana/20241218/tecnologia-pone-servicio-reconstruccion-dana-dentro-desgracia-oportunidad/909659498_0.html",
+    description:
+      "Panelist in the 'Tecnología' round table at the III Foro Económico de la Comunitat Valenciana, organized by DISRUPTORES, INVERTIA, and El Español weeks after the devastating DANA floods, under the theme 'Los desafíos de la reconstrucción y el progreso' (The challenges of reconstruction and progress). Shared how technology can help families, businesses, and the environment recover and rebuild.",
+    thumbnail: "/speaking/foro-economico-comunitat-valenciana-2024.png",
+    videoUrl: "https://www.youtube.com/watch?v=ZpUHzt2sHNQ&t=686s",
   },
 ];
