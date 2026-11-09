@@ -15,9 +15,11 @@ Next.js code, and heed deprecation notices.
 npm run dev     # dev server, http://localhost:3000
 npm run build   # static export to out/ (also type-checks)
 npm run lint    # ESLint
+npm test        # Vitest + React Testing Library (npm run test:watch to watch)
 ```
 
-Done means `npm run lint` and `npm run build` both pass. After visual changes, check the
+Done means `npm run lint`, `npm test` and `npm run build` all pass. Tests sit next to
+the code they cover as `*.test.ts(x)`. After visual changes, check the
 page in `npm run dev`. A clean build does not prove the layout or the PDF looks right.
 
 ## Where things go
@@ -58,5 +60,5 @@ change the CV layout or the button, and generate the PDF to check the result.
 
 ## Deployment
 
-A push to `main` runs `.github/workflows/deploy.yml`. It builds with
+A push to `main` runs `.github/workflows/deploy.yml`. Lint and tests must pass, then it builds with
 `NEXT_PUBLIC_BASE_PATH=/mt-resume-site` and publishes `out/` to GitHub Pages.
