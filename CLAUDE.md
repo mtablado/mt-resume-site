@@ -1,64 +1,7 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 @AGENTS.md
 
-## Project goal
+## Claude Code notes
 
-A static resume website hosted on GitHub Pages. Visitors can view the resume and download a formatted PDF (A4). Content comes from Miguel Tablado's LinkedIn profile.
-
-## Stack
-
-- **Next.js** (static export — no backend, pure client-side)
-- **Tailwind CSS** for styling
-- **html2pdf.js** loaded from CDN (no build-time dependency)
-- **GitHub Pages** for hosting
-
-## Key constraints
-
-The site is a pure static export. `next.config.ts` sets `output: 'export'`. This means:
-- No server components with dynamic data, no API routes, no SSR
-- All data must be hardcoded or fetched client-side at runtime
-- Build output goes to `out/`
-
-## Common commands
-
-```bash
-npm run dev       # local dev server with Turbopack (http://localhost:3000)
-npm run build     # static export → out/
-npm run lint      # ESLint
-```
-
-## Project structure
-
-```
-app/              # App Router — layout.tsx + page.tsx
-components/       # Reusable UI components
-public/           # Static assets (fonts, images)
-```
-
-## PDF generation
-
-html2pdf.js is loaded from CDN at runtime. The download button lives in a `'use client'` component. Target A4 paper size. The resume layout must render well in print mode.
-
-## Speaking page content (`content/speaking.ts`)
-
-Each `Publication` has a `relevance` field — a tier from `1` (most relevant) to `5` (least),
-no decimals — used by the "Relevance" sort on the Speaking page. Ties within a tier are
-broken by date (newest first), so there's no need to keep tiers unique or re-balance
-existing entries when adding a new one — just pick the tier that fits. It's an editorial
-judgment, not derived from the data automatically; infer the tier using this criteria,
-roughly in priority order:
-
-1. **Featured/career-highlight status** — a `featured: true` entry is always tier 1.
-2. **Venue/partner prominence** — major platforms and recognizable brand partners (e.g.
-   Google Cloud, Dynatrace + CaixaBank) outrank regional forums or niche trade press.
-3. **Content type** — panels and talks outrank press soundbites/interviews.
-4. **Video availability** — entries with a recording generally outrank text-only ones.
-
-## Design requirements
-
-- Clean, professional design
-- Mobile-friendly (responsive)
-- Print-friendly — PDF export targets A4
+- Content rules for `content/` are in `content/CLAUDE.md` (it imports `content/AGENTS.md`). They load automatically when you work in that folder.
+- After visual changes, check `/cv` with `npm run dev`. If the change touches the CV or the PDF export, generate the PDF and look at it. A clean build does not prove the PDF looks right.
+- Commit messages: imperative, one change per commit. Example: "Add Codemotion 2024 panel".
