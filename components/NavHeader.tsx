@@ -3,8 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-
-const NAVY = "#1e3a5f";
+import { NAVY } from "@/lib/site";
 
 const links = [
   { href: "/", label: "Home" },

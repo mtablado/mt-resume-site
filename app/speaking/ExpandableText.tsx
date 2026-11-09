@@ -1,8 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-const NAVY = "#1e3a5f";
+import { NAVY } from "@/lib/site";
 
 export default function ExpandableText({ text, className }: { text: string; className?: string }) {
   const [expanded, setExpanded] = useState(false);

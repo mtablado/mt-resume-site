@@ -1,7 +1,5 @@
 import type { Publication, PublicationType } from "@/content/speaking";
-
-export const NAVY = "#1e3a5f";
-export const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+import { NAVY, asset } from "@/lib/site";
 
 export const TYPE_STYLES: Record<PublicationType, { label: string; color: string }> = {
   talk: { label: "Talk", color: "#4285F4" },
@@ -25,7 +23,7 @@ export function VideoThumb({ pub, className }: { pub: Publication; className: st
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={`${BASE}${pub.thumbnail}`}
+        src={asset(pub.thumbnail)}
         alt={pub.title}
         className={`w-full h-full ${pub.preserveThumbnail ? "object-contain bg-black" : "object-cover"}`}
       />

@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { experience as EXPERIENCE } from "@/content/resume";
+import { NAVY } from "@/lib/site";
 
 export const metadata: Metadata = { title: "Experience" };
-
-const NAVY = "#1e3a5f";
 
 export default function ExperiencePage() {
   return (

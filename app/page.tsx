@@ -6,9 +6,7 @@ import {
   summary as SUMMARY,
   skills as SKILLS,
 } from "@/content/resume";
-
-const NAVY = "#1e3a5f";
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+import { NAVY, asset } from "@/lib/site";
 
 export default function HomePage() {
   return (
@@ -21,7 +19,7 @@ export default function HomePage() {
         <div className="text-center max-w-2xl">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={`${BASE}/profile.png`}
+            src={asset("/profile.png")}
             alt={NAME}
             className="rounded-full object-cover object-center mx-auto mb-6"
             style={{

@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
+import { NAVY, asset } from "@/lib/site";
 
 export const metadata: Metadata = { title: "Awards & Recognitions" };
-
-const NAVY = "#1e3a5f";
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export default function AwardsPage() {
   return (
@@ -43,7 +41,7 @@ export default function AwardsPage() {
           <div className="rounded-2xl overflow-hidden mb-10 shadow-xl max-w-3xl mx-auto">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`${BASE}/awards/Miguel Tablado AI Innovation Headshot _ 2025 Partner All-stars_.png`}
+              src={asset("/awards/Miguel Tablado AI Innovation Headshot _ 2025 Partner All-stars_.png")}
               alt="Miguel Tablado León — Google Cloud 2025 Partner All-star AI Innovation"
               className="w-full object-cover"
             />
@@ -76,7 +74,7 @@ export default function AwardsPage() {
           <div className="rounded-2xl overflow-hidden mb-10 shadow-2xl">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`${BASE}/awards/heart_of_kyndryl_24.png`}
+              src={asset("/awards/heart_of_kyndryl_24.png")}
               alt="The Heart of Kyndryl — 2024 Honorees"
               className="w-full object-cover"
             />
@@ -97,7 +95,7 @@ export default function AwardsPage() {
           <div className="rounded-2xl overflow-hidden shadow-2xl">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`${BASE}/awards/heart_of_kyndryl_24_spanish_honorees.png`}
+              src={asset("/awards/heart_of_kyndryl_24_spanish_honorees.png")}
               alt="Heart of Kyndryl 2024 — Spain & Portugal Honorees"
               className="w-full object-cover"
             />

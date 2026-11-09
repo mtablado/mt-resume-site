@@ -11,13 +11,11 @@ import {
   education as EDUCATION,
   awards as AWARDS,
 } from "@/content/resume";
+import { NAVY, asset } from "@/lib/site";
 
 export const metadata: Metadata = { title: "CV" };
 
 // ─── Layout constants ─────────────────────────────────────────────────────────
-
-const NAVY = "#1e3a5f";
-const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 // ─── Sub-components ───────────────────────────────────────────────────────────
 
@@ -158,7 +156,7 @@ export default function CVPage() {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={`${BASE}/profile.png`}
+              src={asset("/profile.png")}
               alt={NAME}
               className="rounded-full object-cover object-center shrink-0"
               style={{

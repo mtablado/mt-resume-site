@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { name as NAME } from "@/content/resume";
-
-const NAVY = "#1e3a5f";
+import { NAVY } from "@/lib/site";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function addFooter(pdf: any) {

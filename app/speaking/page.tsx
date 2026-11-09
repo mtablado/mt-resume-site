@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { contact as CONTACT } from "@/content/resume";
 import { featuredAtLogos, introStatement, publications } from "@/content/speaking";
 import PublicationsExplorer from "./PublicationsExplorer";
-import { NAVY, BASE } from "./shared";
+import { NAVY, asset } from "@/lib/site";
 
 export const metadata: Metadata = { title: "Public Presence & Thought Leadership" };
 
@@ -41,7 +41,7 @@ export default function SpeakingPage() {
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src={`${BASE}${logo.src}`}
+                  src={asset(logo.src)}
                   alt={logo.name}
                   title={logo.name}
                   className="h-7 sm:h-8 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-200"

@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { education as EDUCATION } from "@/content/resume";
+import { NAVY } from "@/lib/site";
 
 export const metadata: Metadata = { title: "Education" };
-
-const NAVY = "#1e3a5f";
 
 export default function EducationPage() {
   return (

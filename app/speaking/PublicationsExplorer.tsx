@@ -3,7 +3,8 @@
 import { useMemo, useState } from "react";
 import type { Publication, PublicationType } from "@/content/speaking";
 import ExpandableText from "./ExpandableText";
-import { NAVY, TYPE_STYLES, VideoThumb, CtaButtons } from "./shared";
+import { TYPE_STYLES, VideoThumb, CtaButtons } from "./shared";
+import { NAVY } from "@/lib/site";
 
 const CATEGORY_ORDER: PublicationType[] = ["talk", "panel", "press", "article", "podcast"];
 type SortOption = "relevance" | "date";
