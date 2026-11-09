@@ -9,4 +9,4 @@ npm run build   # static export to out/
 ```
 
 Edit content in `content/resume.ts` and `content/speaking.ts`. Pushing to `main` deploys.
-Contributor and agent instructions are in [AGENTS.md](AGENTS.md).
+Project instructions for Claude Code are in [CLAUDE.md](CLAUDE.md).
