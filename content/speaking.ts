@@ -213,4 +213,17 @@ export const publications: Publication[] = [
     event: "Wake Up Spain",
     relevance: 2,
   },
+  {
+    type: "article",
+    title: "Impulsar el Data-Driven: El poder de la cultura organizativa en la era de los datos",
+    venue: "Revista Ejecutivos — Opinion",
+    date: "September 5, 2023",
+    url: "https://ejecutivos.es/opinion/impulsar-el-data-driven-el-poder-de-la-cultura-organizativa-en-la-era-de-los-datos/",
+    description:
+      "Opinion piece for Revista Ejecutivos, written as Kyndryl's Data & AI Practice CTO, on why becoming data-driven is above all a matter of organizational culture. Organizations hold more data than they can use, often without the quality needed for confident decisions, and siloed departments cause duplicated effort, inconsistent views of the business, and conflicting priorities. Argued for shared data across the organization, leadership that sets a coherent data strategy, data governance from day one, and an honest assessment of data maturity. Covered the privacy, security, and integrity challenges of moving to the cloud for AI and large-scale analytics, the need for standardization and quality control, and a culture of skilled analysts, action-oriented decisions, and continuous KPI review as a path to competitiveness.",
+    thumbnail: "/speaking/ejecutivos-data-driven-cultura-organizativa-2023.jpg",
+    preserveThumbnail: true,
+    event: "Ejecutivos",
+    relevance: 4,
+  },
 ];
